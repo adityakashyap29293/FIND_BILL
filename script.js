@@ -1,6 +1,9 @@
 const sampleBills = {
-  "9876543210": { name: "John Doe", amount: "₹500", due: "2025-09-10" },
-  "9123456789": { name: "Jane Smith", amount: "₹750", due: "2025-09-15" },
+  "8800392483": { name: "aditya", amount: "₹500", month: "march" },
+  "9811397271": { name: "khush", amount: "₹750", month : "march" },
+  "8860614053": { name: "naresh", amount: "₹100", month : "march" },
+  "7290900267": { name: "JAI", amount: "₹455", month : "march" },
+  
 };
 
 function findBill() {
@@ -19,3 +22,4 @@ function findBill() {
     resultDiv.innerHTML = `<p style="color:red;">No bill found for this mobile number.</p>`;
   }
 }
+
